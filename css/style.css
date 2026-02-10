@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* LOGIN / REGISTER */
+.login-bg {
+    background: #b6e300;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #7fb800;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-box .link {
+    margin-top: 10px;
+}
+
+.login-box .desc {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: #b6e300;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.header .logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* DASHBOARD */
+.card {
+    background: #f6ffcc;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.buttons button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    background: #7fb800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* MODALS */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
+}
+
+.modal-content input {
+    padding: 10px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background: #7fb800;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
